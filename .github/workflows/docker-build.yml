@@ -26,8 +26,7 @@ jobs:
       - name: Build Docker image
         run: |
           docker build -t ${{ secrets.DOCKER_USERNAME }}/thermoflask:latest .
-          docker tag ${{ secrets.DOCKER_USERNAME }}/thermoflask:latest
-
+          
       # Push to Docker Hub
       - name: Push to Docker Hub
         run: docker push ${{ secrets.DOCKER_USERNAME }}/thermoflask:latest

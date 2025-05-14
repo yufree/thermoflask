@@ -1,5 +1,7 @@
 # ThermoFlask
 
+[![Docker Pulls](https://img.shields.io/docker/pulls/yufree/thermoflask.svg)](https://hub.docker.com/r/yufree/thermoflask)
+
 ThermoFlask is a Flask-based web application for processing Thermo `.raw` files using the [ThermoRawFileParser](https://github.com/compomics/ThermoRawFileParser). It provides a user-friendly interface for uploading `.raw` files, selecting output formats, and downloading the processed results.
 
 ## Features
